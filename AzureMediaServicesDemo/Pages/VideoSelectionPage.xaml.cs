@@ -20,7 +20,7 @@ namespace AzureMediaServicesDemo.Pages
 
         protected override void OnDisappearing()
         {
-            
+            base.OnDisappearing();
         }
 
 

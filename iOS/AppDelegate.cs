@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Plugin.MediaManager.Forms.iOS;
 using UIKit;
 
 namespace AzureMediaServicesDemo.iOS
@@ -13,6 +14,7 @@ namespace AzureMediaServicesDemo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            VideoViewRenderer.Init();
 
             LoadApplication(new App());
 
