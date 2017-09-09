@@ -118,6 +118,12 @@
     <Reference Include="Plugin.MediaManager.Forms">
       <HintPath>..\packages\Plugin.MediaManager.Forms.0.4.3\lib\MonoAndroid\Plugin.MediaManager.Forms.dll</HintPath>
     </Reference>
+    <Reference Include="ExoPlayer">
+      <HintPath>..\packages\Xam.Plugins.Android.ExoPlayer.2.0.4.1\lib\MonoAndroid\ExoPlayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.MediaManager.ExoPlayer">
+      <HintPath>..\packages\Plugin.MediaManager.ExoPlayer.0.4.3\lib\MonoAndroid\Plugin.MediaManager.ExoPlayer.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AzureMediaServicesDemo\AzureMediaServicesDemo.csproj">
