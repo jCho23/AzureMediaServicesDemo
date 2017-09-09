@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using AzureMediaServicesDemo.Pages;
 
 namespace AzureMediaServicesDemo
 {
@@ -8,7 +9,7 @@ namespace AzureMediaServicesDemo
         {
             InitializeComponent();
 
-            MainPage = new AzureMediaServicesDemoPage();
+            MainPage = new NavigationPage(new VideoSelectionPage());
         }
 
         protected override void OnStart()

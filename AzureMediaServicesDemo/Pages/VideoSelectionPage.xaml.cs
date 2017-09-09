@@ -7,8 +7,7 @@ namespace AzureMediaServicesDemo.Pages
 {
     public partial class VideoSelectionPage : ContentPage
     {
-        readonly Button webViewPageButton, nativeVideoPlayerButton;
-
+        
         public VideoSelectionPage()
         {
             InitializeComponent();
@@ -17,10 +16,12 @@ namespace AzureMediaServicesDemo.Pages
         protected override void OnAppearing()
         {
             base.OnAppearing();
-
-			webViewPageButton.Clicked += HandleWebViewPageButtonClicked;
         }
 
+        protected override void OnDisappearing()
+        {
+            
+        }
 
 
         void HandleWebViewPageButtonClicked(object sender, System.EventArgs e)

@@ -11,17 +11,13 @@
 
         <Button
             Text= "WebView Page Button"
-            Clicked="webViewPageButton">
+            Clicked="HandleWebViewPageButtonClicked">
 
         </Button>
 
-        <Button>
-            Text= "Native Video Player Button"
+        <Button
+            Text= "Native Video Player Button">
         </Button>
-
-
-
-
 
     </StackLayout>
 
