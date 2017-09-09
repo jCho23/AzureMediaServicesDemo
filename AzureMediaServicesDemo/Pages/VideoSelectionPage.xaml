@@ -9,9 +9,10 @@
         HorizontalOptions= "Center"
         VerticalOptions= "Center">
 
-        <Button>
+        <Button
             Text= "WebView Page Button"
-            
+            Clicked="webViewPageButton">
+
         </Button>
 
         <Button>

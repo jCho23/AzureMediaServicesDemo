@@ -7,18 +7,26 @@ namespace AzureMediaServicesDemo.Pages
 {
     public partial class VideoSelectionPage : ContentPage
     {
+        readonly Button webViewPageButton, nativeVideoPlayerButton;
+
         public VideoSelectionPage()
         {
             InitializeComponent();
         }
 
-        void Handle_Clicked(object sender, System.EventArgs e)
+        protected override void OnAppearing()
         {
-            throw new NotImplementedException();
+            base.OnAppearing();
+
+			webViewPageButton.Clicked += HandleWebViewPageButtonClicked;
         }
 
-		void HandleWebViewPageButtonClicked(object sender, EventArgs e) =>
+
+
+        void HandleWebViewPageButtonClicked(object sender, System.EventArgs e)
+        {
 			Device.BeginInvokeOnMainThread(async () => await Navigation.PushAsync(new VideoWebViewPage()));
+		}
 
 	}
 }
