@@ -15,10 +15,6 @@
 
         </Button>
 
-        <Button
-            Text= "Native Video Player Button">
-        </Button>
-
     </StackLayout>
 
 </ContentPage>
