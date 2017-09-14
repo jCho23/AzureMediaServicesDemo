@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using AzureMediaServicesSampleApp;
 using Xamarin.Forms;
 
 namespace AzureMediaServicesDemo.Pages

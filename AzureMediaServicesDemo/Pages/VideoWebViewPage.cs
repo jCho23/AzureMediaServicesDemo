@@ -1,15 +1,15 @@
 ﻿using Xamarin.Forms;
-using Constants;
+using AzureMediaServicesDemo.Constants;
 
 namespace AzureMediaServicesSampleApp
 {
 	public class VideoWebViewPage : ContentPage
 	{
-		public VideoWebViewPage()
+		public VideoWebViewPage(string url)
 		{
 			Title = "Web View Video Player";
 
-			Content = new WebView { Source = MediaConstants.VideoUrl };
+			Content = new WebView { Source = url };
 		}
 	}
 }
